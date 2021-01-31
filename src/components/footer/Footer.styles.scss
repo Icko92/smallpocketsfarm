@@ -1,13 +1,47 @@
 .footer {
+  h1 {
+    color: tomato;
+    font-size: 1.5vw;
+  }
+  p {
+    color: white;
+    font-size: 1.2vw;
+    padding-top: 1.5vw;
+  }
+
   display: flex;
   justify-content: space-between;
-  align-items: center;
   background-color: black;
-  border-top: 5px solid tomato;
+  border-top: 0.5vw solid tomato;
+  padding: 10%;
+
   .footer-logo {
     width: 10%;
     img {
       width: 100%;
+    }
+  }
+  .location-info {
+    width: 20%;
+  }
+  .hours-info {
+    width: 20%;
+  }
+  .social {
+    width: 20%;
+
+    .social-logo {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      img {
+        display: block;
+        width: 20%;
+        padding-right: 0.6vw;
+        padding-top: 1vw;
+      }
     }
   }
 }
