@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 1vw;
+  .logo {
+    width: 7%;
+    img {
+      width: 100%;
+    }
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2vw;
+    color: white;
+    width: 30%;
+  }
+}
