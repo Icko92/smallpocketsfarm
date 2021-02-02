@@ -1,6 +1,7 @@
 .footer {
+  margin-top: 135vw;
   h1 {
-    color: tomato;
+    color: #f1502f;
     font-size: 1.5vw;
   }
   p {
@@ -11,13 +12,15 @@
 
   display: flex;
   justify-content: space-between;
+  align-items: top;
   background-color: black;
-  border-top: 0.5vw solid tomato;
-  padding: 10%;
+  border-top: 0.5vw solid #f1502f;
+  padding: 5vw 13vw;
 
   .footer-logo {
-    width: 10%;
+    width: 20%;
     img {
+      display: block;
       width: 100%;
     }
   }
