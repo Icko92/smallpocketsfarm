@@ -2,17 +2,17 @@
   margin-top: 135vw;
   h1 {
     color: #f1502f;
-    font-size: 1.5vw;
+    font-size: 1.9vw;
   }
   p {
-    color: white;
+    color: lightgray;
     font-size: 1.2vw;
-    padding-top: 1.5vw;
+    padding-top: 1.7vw;
   }
 
   display: flex;
   justify-content: space-between;
-  align-items: top;
+  align-items: center;
   background-color: black;
   border-top: 0.5vw solid #f1502f;
   padding: 5vw 13vw;
@@ -32,7 +32,7 @@
   }
   .social {
     width: 20%;
-
+    padding-bottom: 2vw;
     .social-logo {
       width: 100%;
       display: flex;
@@ -42,9 +42,28 @@
       img {
         display: block;
         width: 20%;
-        padding-right: 0.6vw;
         padding-top: 1vw;
       }
+    }
+  }
+}
+
+//Mobile
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .footer {
+    margin-top: 130vw;
+    h1 {
+      font-size: 3vw;
+    }
+    p {
+      color: lightgray;
+      font-size: 2vw;
+      padding-top: 1.7vw;
+    }
+
+    .social {
+      padding-bottom: 4.5vw;
     }
   }
 }

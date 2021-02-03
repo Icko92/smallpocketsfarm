@@ -8,7 +8,7 @@ function Main() {
       <div className="main-logo">
         <img src={mainlogo} alt="mainlogo" />
       </div>
-      <div className="card">
+      <div className="card our-process">
         <h1>OUR PROCESS</h1>
         <p>
           As a New York Farm Cidery & Brewery, Small Pockets Farm tries to use
@@ -18,7 +18,7 @@ function Main() {
           trials and tastings. We are also proud to be sulfite free!
         </p>
       </div>
-      <div className="card">
+      <div className="card our-story">
         <h1>OUR STORY</h1>
         <p>
           Being a part of the industry for over a decade has helped define the
@@ -33,7 +33,7 @@ function Main() {
           of the world on the other side of the glass.
         </p>
       </div>
-      <div className="card">
+      <div className="card visit-us">
         <h1>VISIT US</h1>
         <p>
           Come out and explore acres of carved out trails highlighting the New

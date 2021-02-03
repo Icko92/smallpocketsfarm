@@ -4,7 +4,7 @@ import logo from "../../images/navlogo.png";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer about-us">
       <div className="footer-logo">
         <img src={logo} alt="logo" />
       </div>

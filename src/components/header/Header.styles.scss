@@ -11,6 +11,7 @@
     width: 13%;
     position: relative;
     padding: 3vw 0vw;
+
     img {
       width: 100%;
       display: block;
@@ -27,13 +28,61 @@
     color: lightgray;
     width: 45%;
     padding: 0vw 5vw;
-    div {
+    a {
       padding: 1vw;
     }
-    div:hover {
+    a:hover {
       color: #f1502f;
       cursor: pointer;
       transition: 0.5s;
+    }
+  }
+  .navigation-icon {
+    color: white;
+    display: none;
+  }
+}
+
+//Mobile
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    border-bottom: 1vw solid #f1502f;
+
+    .logo {
+      width: 21%;
+      position: relative;
+      padding: 3vw 0vw;
+      z-index: 2;
+    }
+    .navigation {
+      flex-direction: column;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.95);
+      width: 100vw;
+      font-size: 5vw;
+      top: 13.5vw;
+      left: 0;
+      transition: 0.5s ease-in-out;
+      z-index: 1;
+      padding-top: 5vw;
+      padding-bottom: 100vw;
+      margin-left: 100vw;
+      // display: none;
+      a {
+        width: 90vw;
+        text-align: end;
+        padding: 10vw 20vw;
+        letter-spacing: 1vw;
+      }
+    }
+    .navigation-icon {
+      display: block;
+      padding: 2.5vw 4vw;
+      i {
+        font-size: 8vw;
+        color: #f1502f;
+      }
     }
   }
 }
