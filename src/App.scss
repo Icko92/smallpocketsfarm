@@ -1,5 +1,9 @@
 .app {
   width: 100%;
-  background-image: url("./images/background.jpg");
-  background-size: cover;
+  background-image: url("./images/background.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 1366px;
+  position: relative;
 }

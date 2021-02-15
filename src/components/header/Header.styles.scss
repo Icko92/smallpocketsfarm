@@ -5,31 +5,31 @@
   width: 100%;
   background-color: black;
   position: fixed;
-  padding: 0vw 3vw;
-  border-bottom: 0.5vw solid #f1502f;
+  border-bottom: 0.4rem solid #f1502f;
+  max-width: 1366px;
+  padding: 0% 5%;
+  z-index: 3;
   .logo {
-    width: 13%;
+    width: 10%;
     position: relative;
-    padding: 3vw 0vw;
+    padding-bottom: 3%;
 
     img {
       width: 100%;
       display: block;
       position: absolute;
-      top: 0.1vw;
     }
   }
   .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.5vw;
+    font-size: 130%;
     font-weight: bolder;
     color: lightgray;
     width: 45%;
-    padding: 0vw 5vw;
     a {
-      padding: 1vw;
+      padding: 5%;
     }
     a:hover {
       color: #f1502f;
@@ -45,14 +45,14 @@
 
 //Mobile
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 100px) and (max-width: 1365px) {
   .header {
     border-bottom: 1vw solid #f1502f;
 
     .logo {
-      width: 21%;
+      width: 22%;
       position: relative;
-      padding: 3vw 0vw;
+      padding-bottom: 6%;
       z-index: 2;
     }
     .navigation {

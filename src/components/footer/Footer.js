@@ -18,16 +18,6 @@ function Footer() {
         <p>Saturday 11am-5pm</p>
         <p>Sunday 11am-5pm</p>
       </div>
-      <div className="social">
-        <h1>Follow Us</h1>
-        <div className="social-logo">
-          <img src={logo} alt="logo" />
-          <img src={logo} alt="logo" />
-          <img src={logo} alt="logo" />
-          <img src={logo} alt="logo" />
-          <img src={logo} alt="logo" />
-        </div>
-      </div>
     </div>
   );
 }

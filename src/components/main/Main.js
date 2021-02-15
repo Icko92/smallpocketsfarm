@@ -1,6 +1,10 @@
 import React from "react";
 import "./Main.styles.scss";
 import mainlogo from "../../images/navlogo.png";
+import img1 from "../../images/1.jpg";
+import img2 from "../../images/2.jpg";
+import img3 from "../../images/3.jpg";
+import followus from "../../images/followus.png";
 
 function Main() {
   return (
@@ -44,6 +48,49 @@ function Main() {
           tasting room or wander off and find your own little spot in the Finger
           Lakes.
         </p>
+      </div>
+      <div className="gallery-container">
+        <div
+          className="gallery-card"
+          style={{
+            backgroundImage: `url(${img1})`,
+          }}
+        ></div>
+        <div
+          className="gallery-card"
+          style={{
+            backgroundImage: `url(${img2})`,
+          }}
+        ></div>
+        <div
+          className="gallery-card"
+          style={{
+            backgroundImage: `url(${img3})`,
+          }}
+        ></div>
+        <div
+          className="gallery-card"
+          style={{
+            backgroundImage: `url(${img3})`,
+          }}
+        ></div>
+        <div
+          className="gallery-card"
+          style={{
+            backgroundImage: `url(${img3})`,
+          }}
+        ></div>
+      </div>
+      <div className="follow-us-container">
+        <img src={followus} alt="img" />
+        <a
+          href="https://www.instagram.com/smallpocketsfarm/"
+          target="_blank"
+          rel="noreferrer"
+          className="social-link"
+        >
+          {""}
+        </a>
       </div>
     </div>
   );
