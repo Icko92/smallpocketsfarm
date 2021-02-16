@@ -3,9 +3,13 @@ import ReactDOM from "react-dom";
 import "./index.scss";
 import App from "./App";
 
+import SimpleReactLightbox from "simple-react-lightbox";
+
 ReactDOM.render(
   <React.StrictMode>
-    <App   />
-  </React.StrictMode >,
+    <SimpleReactLightbox>
+      <App />
+    </SimpleReactLightbox>
+  </React.StrictMode>,
   document.getElementById("root")
 );

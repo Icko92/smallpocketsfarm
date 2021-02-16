@@ -44,22 +44,32 @@
     width: 90%;
     margin: 0 auto;
     padding-top: 5%;
-    display: flex;
-    justify-content: space-between;
-    // align-items: center;
-    // padding: 5%;
-
-    .gallery-card {
-      width: 19%;
-      height: 0px;
-      padding-bottom: 19%;
-      transition: transform 1s;
-      border-radius: 0.5vw;
-      border: 0.2vw solid white;
-      background-size: cover;
-    }
-    .gallery-card:hover {
-      transform: scale(1.5);
+    padding-bottom: 5%;
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        display: block;
+        width: 19%;
+        height: 0px;
+        padding-bottom: 19%;
+        transition: transform 1s;
+        border-radius: 0.5vw;
+        border: 0.2vw solid white;
+        overflow: hidden;
+        position: relative;
+        img {
+          height: 100%;
+          min-width: 100%;
+          left: 50%;
+          position: absolute;
+          transform: translateX(-50%);
+        }
+      }
+      a:hover {
+        transform: scale(1.1);
+      }
     }
   }
   .follow-us-container {
@@ -116,35 +126,7 @@
       margin: 0 auto;
     }
     .gallery-container {
-      width: 90%;
-      margin: 0 auto;
       padding-top: 15%;
-      padding-bottom: 5%;
-      display: flex;
-      justify-content: space-between;
-      // align-items: center;
-      // padding: 5%;
-
-      .gallery-card {
-        width: 19%;
-        height: 0px;
-        padding-bottom: 19%;
-        transition: transform 1s;
-        border-radius: 0.5vw;
-        border: 0.2vw solid white;
-        background-size: cover;
-      }
-      .gallery-card:hover {
-        transform: scale(3);
-        // position: absolute;
-        transform-origin: 50% 50%;
-      }
-    }
-    .gallery-card:nth-child(1):hover {
-      transform-origin: 0% 50%;
-    }
-    .gallery-card:nth-child(5):hover {
-      transform-origin: 100% 50%;
     }
   }
 }

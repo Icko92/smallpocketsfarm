@@ -1,4 +1,6 @@
 import React from "react";
+import { SRLWrapper } from "simple-react-lightbox";
+
 import "./Main.styles.scss";
 import mainlogo from "../../images/navlogo.png";
 import img1 from "../../images/1.jpg";
@@ -50,6 +52,25 @@ function Main() {
         </p>
       </div>
       <div className="gallery-container">
+        <SRLWrapper>
+          <a href={img1}>
+            <img src={img1} alt="" />
+          </a>
+          <a href={img2}>
+            <img src={img2} alt="" />
+          </a>
+          <a href={img3}>
+            <img src={img3} alt="" />
+          </a>
+          <a href={img2}>
+            <img src={img2} alt="" />
+          </a>
+          <a href={img2}>
+            <img src={img2} alt="" />
+          </a>
+        </SRLWrapper>
+      </div>
+      {/* <div className="gallery-container">
         <div
           className="gallery-card"
           style={{
@@ -80,7 +101,7 @@ function Main() {
             backgroundImage: `url(${img3})`,
           }}
         ></div>
-      </div>
+      </div> */}
       <div className="follow-us-container">
         <img src={followus} alt="img" />
         <a
