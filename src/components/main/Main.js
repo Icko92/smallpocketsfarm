@@ -1,11 +1,11 @@
 import React from "react";
-import { SRLWrapper } from "simple-react-lightbox";
+// import { SRLWrapper } from "simple-react-lightbox";
 
 import "./Main.styles.scss";
 import mainlogo from "../../images/navlogo.png";
-import img1 from "../../images/1.jpg";
-import img2 from "../../images/2.jpg";
-import img3 from "../../images/3.jpg";
+// import img1 from "../../images/1.jpg";
+// import img2 from "../../images/2.jpg";
+// import img3 from "../../images/3.jpg";
 import followus from "../../images/followus.png";
 
 function Main() {
@@ -52,7 +52,7 @@ function Main() {
         </p>
       </div>
       <div className="gallery-container">
-        <SRLWrapper>
+        {/* <SRLWrapper>
           <a href={img1}>
             <img src={img1} alt="" />
           </a>
@@ -68,40 +68,8 @@ function Main() {
           <a href={img2}>
             <img src={img2} alt="" />
           </a>
-        </SRLWrapper>
+        </SRLWrapper> */}
       </div>
-      {/* <div className="gallery-container">
-        <div
-          className="gallery-card"
-          style={{
-            backgroundImage: `url(${img1})`,
-          }}
-        ></div>
-        <div
-          className="gallery-card"
-          style={{
-            backgroundImage: `url(${img2})`,
-          }}
-        ></div>
-        <div
-          className="gallery-card"
-          style={{
-            backgroundImage: `url(${img3})`,
-          }}
-        ></div>
-        <div
-          className="gallery-card"
-          style={{
-            backgroundImage: `url(${img3})`,
-          }}
-        ></div>
-        <div
-          className="gallery-card"
-          style={{
-            backgroundImage: `url(${img3})`,
-          }}
-        ></div>
-      </div> */}
       <div className="follow-us-container">
         <img src={followus} alt="img" />
         <a
